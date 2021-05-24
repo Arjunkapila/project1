@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".fragment_registration">
+
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:textColor="@color/purple_500"
+        android:textSize="45sp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/CPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ConfirmPassword"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/birth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="DOB"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gender"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="location"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/join"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="Join"
+        android:textSize="25sp" />
+
+</LinearLayout>
